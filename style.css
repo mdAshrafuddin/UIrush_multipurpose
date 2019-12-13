@@ -5,6 +5,13 @@
   font-weight: bold;
   font-size: 30px;
 }
+/*header for css*/
+.header_area {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 2;
+    width: 100%;
+}
 .logo span {
   color: #38747B;
 }
@@ -28,17 +35,17 @@
 
 /* css for silder */
 .slider_area > img {
-  height: auto;
-  width: 100%;
+    height: 600px;
+    width: 100%;
 }
 .slider_area
 {
 	position:relative;
 }
 .slider_text {
-  left: 200px;
-  position: absolute;
-  top: 50px;
+    left: 200px;
+    position: absolute;
+    top: 160px;
 }
 .slider_text > h1 {
   color: #ffd34e;
@@ -254,6 +261,7 @@
   float: left;
   margin-top: 14px;
 }
+/*
 .blog_date {
   background: #bd4932 none repeat scroll 0 0;
   height: 60px;
@@ -262,6 +270,7 @@
   top: 70px;
   width: 70px;
 }
+*/
 /*css for footer_top*/
 .footer_top_area {
   background: #051f22 none repeat scroll 0 0;
@@ -308,10 +317,12 @@
 
 
 /*style for about us*/
-.breatcum_area{
-	background:url(img/aboutusimg/Abous1.png) no-repeat scroll 0 0 / 100% auto;;
-	height:150px;width:100%;
-	
+.breatcum_area {
+    background: url(img/aboutusimg/Abous1.png) no-repeat scroll 0 0 / 100% auto;
+    height: 150px;
+    width: 100%;
+    margin-top: -7px;
+    border-top: 1px solid #585454;
 }
 .breatcum {
   text-align: center;
